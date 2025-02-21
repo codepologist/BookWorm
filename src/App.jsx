@@ -16,7 +16,7 @@ function App() {
   };
 
   useEffect(() => {
-    searchBooks("SQL");
+    searchBooks("JavaScript");
   }, []);
 
   return (
