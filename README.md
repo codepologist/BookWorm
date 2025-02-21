@@ -35,19 +35,19 @@ BookWorm is a React application that fetches books from the Google Book Store us
 
 ## Features
 
-1. Fetch books from the Google Book Store via the Google Book API.
-2. Search for books by title, author, or keyword.
-3. Display book details including title, author, and description.
-4. Responsive design using Bulma CSS framework.
+* Fetch books from the Google Book Store via the Google Book API.
+* Search for books by title, author, or keyword.
+* Display book details including title, author, and description.
+* Responsive design using Bulma CSS framework.
 
 ## Technologies Used
 
-1. React 19: A JavaScript library for building user interfaces.
-2. React Hooks: Manage state and lifecycle methods within functional components.
-3. Vite: A fast development build tool.
-4. Bulma CSS: A modern CSS framework based on Flexbox.
-5. Vanilla CSS: Custom styles to enhance the UI.
-6. Google Book API: Fetch book data from Google's Book Store.
+* React 19: A JavaScript library for building user interfaces.
+* React Hooks: Manage state and lifecycle methods within functional components.
+* Vite: A fast development build tool.
+* Bulma CSS: A modern CSS framework based on Flexbox.
+* Vanilla CSS: Custom styles to enhance the UI.
+* Google Book API: Fetch book data from Google's Book Store.
 
 ## Contributing
 
@@ -73,6 +73,5 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
-1. Google for providing the Book API.
-
-2. The React community for their continuous contributions and support.
+* Google for providing the Book API.
+* The React community for their continuous contributions and support.
