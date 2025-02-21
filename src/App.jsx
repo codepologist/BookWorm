@@ -3,7 +3,7 @@ import BookList from "./components/BookList";
 import Footer from "./components/Footer";
 import { logo, search } from "./assets";
 
-const API_KEY = "import.meta.env.VITE_GOOGLE_API_KEY";
+const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
 const BASE_URL = `https://www.googleapis.com/books/v1/volumes`;
 
 function App() {
