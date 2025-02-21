@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import BookList from "./BookList";
+import BookList from "./components/BookList";
+import Footer from "./components/Footer";
 import { logo, search } from "./assets";
 
 const API_KEY = "AIzaSyBI4DMODS8XhdyGYyCBIU1Ehtdc9en7-Ww";
@@ -163,6 +164,7 @@ function App() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
