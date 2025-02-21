@@ -2,7 +2,7 @@
 
 BookWorm is a React application that fetches books from the Google Book Store using the Google Book API and displays them in the app. The project leverages Vite for a fast development environment, utilizes Bulma for styling, and makes use of React 19 with hooks and vanilla CSS.
 
-## Screenshot
+# Screenshot
 
 ![BookWorm Screenshot](./src/assets/screenshot.png)
 
