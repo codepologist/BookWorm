@@ -1,0 +1,56 @@
+/* Import Poppins font family with all available weights and styles */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Import Bulma CSS framework */
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+/* Set default font family for the entire document */
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  /* Note: font-family value is currently empty and needs to be specified */
+}
+
+body {
+  font-weight: 400;
+  color: #5b5b5b;
+  line-height: 1.6;
+}
+
+.hero-bg {
+  background: linear-gradient(#00000099, #00000099),
+    url(./assets/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.navbar-link,
+a.navbar-item {
+  background-color: transparent !important;
+  color: #fff;
+}
+
+input {
+  background-color: #fff !important; /* Use your desired color */
+  color: #333 !important; /* Use your desired color */
+  border: none !important; /* Remove border */
+  width: 640px !important; /* Set the desired width */
+}
+
+@media screen and (max-width: 576px) {
+  input {
+    width: 250px !important;
+  }
+}
